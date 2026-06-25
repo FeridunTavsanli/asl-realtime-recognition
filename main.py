@@ -152,6 +152,7 @@ while True:
             label = class_names[class_idx]
 
             if label=="nothing":
+                pred_buffer.clear()
                 continue
 
             if confidence>0.5:
